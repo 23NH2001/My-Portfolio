@@ -4,103 +4,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Neveel Hingu</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Neveel Hingu - Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Neveel Hingu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="jumbotron jumbotron-fluid">
-    <div class="container text-center">
-      <h1 class="display-4">Welcome to My Portfolio</h1>
-      <p class="lead">I'm a passionate Full Stack Developer.</p>
-      <div class="social-icons">
-        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-        <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
-        <a href="https://github.com/23NH2001" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/neveel/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <h1 class="hero-title">Neveel Hingu</h1>
+            <p class="hero-description">Full Stack Developer</p>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary">Portfolio</a>
+              <a href="#contact" class="btn btn-secondary">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <img src="profile-image.jpg" alt="Profile Image" class="profile-image">
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <div class="section-heading">
-        <h2>About Me</h2>
-        <p>I'm a versatile full stack developer, proficient in both front-end and back-end development, capable of handling all aspects of web application development.</p>
+ <!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="section-heading">
+      <h2>About Me</h2>
+      <p>I'm a passionate Full Stack Developer with expertise in web development and a focus on creating exceptional user experiences. I have a strong foundation in both front-end and back-end technologies, allowing me to develop robust and dynamic web applications.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="studying.jpg" class="img-fluid profile-image" alt="Profile Image">
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="profileImage.jpg" class="img-fluid profile-image">
-        </div>
-        <div class="col-md-6">
-          <h3>Neveel Hingu</h3>
-          <p>As a dynamic and skilled full stack developer, I bring a strong professional acumen to the table. With a solid foundation in both front-end and back-end web development, I am adept at crafting engaging user interfaces and implementing robust server-side functionalities. Constantly staying abreast of emerging technologies and industry trends, I strive to deliver high-quality, efficient web applications. Driven by a passion for excellence, I am committed to continuous learning and professional growth, ensuring that my contributions align with industry standards and best practices. With a detail-oriented approach and a dedication to client satisfaction, I am poised to make a valuable impact as a professional full stack developer.</p>
-        </div>
+      <div class="col-md-6">
+        <h3>Neveel Hingu</h3>
+        <p>As a dedicated professional, I thrive on tackling challenging projects and finding innovative solutions. With a keen eye for detail and a passion for clean code, I strive to deliver high-quality results that exceed client expectations.</p>
+        <p>My expertise includes front-end technologies such as HTML, CSS, and JavaScript, along with frameworks like React and Angular. On the back-end, I have experience working with Node.js and Express.js, as well as databases like MongoDB and MySQL.</p>
+        <p>Continuously learning and staying up-to-date with the latest industry trends, I am always eager to expand my skill set and explore new technologies. I am confident in my ability to collaborate effectively in cross-functional teams and deliver outstanding projects.</p>
+        <p>If you're looking for a dedicated and skilled Full Stack Developer who can bring your ideas to life, I would love to connect with you.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
+  <section id="portfolio" class="section">
     <div class="container">
       <div class="section-heading">
-        <h2>Portfolio</h2>
-        <p>Here are my some of the Projects</p>
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-description">Check out some of my projects</p>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <img src="project1.jpg" alt="Project Image" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Finincial Management App</h5>
-              <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-              <a href="https://github.com/23NH2001/Bank-Web-App" target="_blank" class="btn btn-primary">  <i class="fab fa-github"></i> Learn More</a>
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Financial Management Web App which secure transaction</p>
+              <a href="#" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <img src="project2.jpg" alt="Project Image" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Youtube Downloader</h5>
-              <a href="https://github.com/23NH2001/YouTube-Downloader" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Learn More</a>
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Download videos in multiple formats with ease.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img src="project3.jpg" class="card-img-top" alt="Project 3">
+            <img src="project3.jpg" alt="Project Image" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Automation Python with Excel</h5>
-              <a href="https://github.com/23NH2001/Python-with-excel" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Learn More</a>
+              <h5 class="card-title">Excel Automation</h5>
+              <p class="card-text">Automation Excel workbook using Python3</p>
+              <a href="#" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
@@ -108,26 +120,43 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-
-  </section>
-  
-  <section id="contact">
+<!-- Contact Section -->
+<section id="contact">
   <div class="container">
-    <h2>Contact</h2>
-    <div class="contact-info">
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <div class="contact-text">
-          <h4>Email</h4>
-          <a href="mailto:hinguneveel@gmail.com">hinguneveel@gmail.com</a>
-        </div>
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="POST" action="#">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
-      <div class="contact-item">
-        <i class="fas fa-phone"></i>
-        <div class="contact-text">
-          <h4>Phone</h4>
-          <a href="tel:+16479499428">+1(647)949-9428</a>
+      <div class="contact-details">
+        <h2>Contact Details</h2>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div class="contact-text">
+            <h4>Email</h4>
+            <p><a href="mailto:hinguneveel@gmail.com">hinguneveel@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div class="contact-text">
+            <h4>Phone</h4>
+            <p><a href="tel:+16479499428">+1 (647) 949-9428</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -135,18 +164,28 @@
 </section>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-<!-- Footer Section -->
-<footer class="footer">
+  <!-- Footer Section -->
+  <footer class="footer">
     <div class="container">
-        <p>&copy; 2023 Neveel Hingu. All rights reserved.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="footer-text">© 2023 Neveel Hingu. All rights reserved.</p>
+        </div>
+        <div class="col-lg-6">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
   </footer>
-  
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
 
 </html>
